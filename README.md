@@ -1,9 +1,10 @@
 
 # Rapport
 
-**Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
+Starting out, I created a GitHub account and using that account created a fork of the original respository. After that I cloned the fork into Android studio
+and logged into GitHub from the IDE using a token. Then I went into the file strings.xml and changed '<string name="app_name">Hello</string>' to
+<string name="app_name">I am no longer who I was before, I am a changed string</string>. Finally, I saved the project and using the VCS operations interface
+I commited and pushed the changes.
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -16,24 +17,14 @@ _Du kan ta bort all text som finns sedan tidigare_.
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<resources>
+    <string name="app_name">I am no longer who I was before, I am a changed string</string>
+</resources>
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](Screenshot_20230329_104743.png)
 
 Läs gärna:
 
